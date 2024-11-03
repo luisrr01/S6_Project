@@ -4,7 +4,7 @@ import streamlit as st
         
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
-# agregar un encabezado
+# agregar un encabezado a la página
 st.header('Anuncios de ventas de coches')
 
 build_histogram = st.checkbox('Construir un histograma') # crear un checkbox
